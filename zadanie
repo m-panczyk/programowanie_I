@@ -1,0 +1,8 @@
+#! /bin/sh
+dir='/home/seth/Dokumenty/szkoła/PO/programowanie\ I'
+
+mkdir $1
+cp -n main.cpp.template $1/main.cpp
+cd $1
+vim main.cpp
+cd ..
